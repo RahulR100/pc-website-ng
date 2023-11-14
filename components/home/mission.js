@@ -1,23 +1,23 @@
 'use client';
 import { Badge, Group, Title, Text, Card, SimpleGrid, Container, rem, useMantineTheme } from '@mantine/core';
-import { IconGauge, IconUser, IconCookie } from '@tabler/icons-react';
+import { IconCode, IconCurrencyDollarOff, IconChessRook } from '@tabler/icons-react';
 import classes from './mission.module.css';
 
 const mockdata = [
 	{
 		title: 'Build Open Source',
 		description: 'Members collaborate to develop highly integrated, no-to-low cost solutions',
-		icon: IconGauge
+		icon: IconCode
 	},
 	{
 		title: 'Get Money Out of Politics',
 		description: 'People-driven movements strengthen communities, reducing the influence of big-money in politics',
-		icon: IconUser
+		icon: IconCurrencyDollarOff
 	},
 	{
 		title: 'Empower the Gressroots',
 		description: 'Tech teams build high-quality tools to level the playing field for the grassroots',
-		icon: IconCookie
+		icon: IconChessRook
 	}
 ];
 

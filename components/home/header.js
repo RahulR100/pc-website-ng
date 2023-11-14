@@ -1,8 +1,12 @@
-import { Overlay, Container, Title, Button, Text, Group } from '@mantine/core';
+'use client';
+import { Overlay, Container, Title, Button, Text, Group, useMantineTheme } from '@mantine/core';
 import classes from './header.module.css';
 import Link from 'next/link';
+import { IconBrandSlack, IconMoodSmile } from '@tabler/icons-react';
 
 export function Header() {
+	const theme = useMantineTheme();
+
 	return (
 		<div className={classes.hero}>
 			<Overlay gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)" opacity={1} zIndex={0} />
@@ -14,13 +18,25 @@ export function Header() {
 				</Text>
 
 				<Group>
-					<Link href="https://airtable.com/appYwJQnJJJQumGT8/shraBEItZa0sYiMB0">
-						<Button variant="gradient" size="xl" className={classes.control}>
+					<Link target="_blank" href="https://airtable.com/appYwJQnJJJQumGT8/shraBEItZa0sYiMB0">
+						<Button
+							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
+							variant="gradient"
+							size="xl"
+							className={classes.control}
+							leftSection={<IconBrandSlack />}
+						>
 							Join our Slack
 						</Button>
 					</Link>
-					<Link href="https://www.patreon.com/ProgressiveCodersNetwork">
-						<Button variant="gradient" size="xl" className={classes.control}>
+					<Link target="_blank" href="https://www.patreon.com/ProgressiveCodersNetwork">
+						<Button
+							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
+							variant="gradient"
+							size="xl"
+							className={classes.control}
+							leftSection={<IconMoodSmile />}
+						>
 							Donate
 						</Button>
 					</Link>
