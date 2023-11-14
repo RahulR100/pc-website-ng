@@ -39,7 +39,7 @@ export function Mission() {
 	return (
 		<Container size="lg" py="xl" my="xl">
 			<Group justify="center">
-				<Badge variant="filled" size="lg">
+				<Badge variant="filled" size="xl">
 					Our Mission
 				</Badge>
 			</Group>
