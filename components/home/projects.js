@@ -1,7 +1,6 @@
 'use client';
 import { Carousel } from '@mantine/carousel';
-import { useMediaQuery } from '@mantine/hooks';
-import { Paper, Text, Title, Button, useMantineTheme, rem, Container, Group, Badge } from '@mantine/core';
+import { Paper, Text, Title, Button, rem, Container, Group, Badge } from '@mantine/core';
 import classes from './projects.module.css';
 
 const data = [
@@ -56,9 +55,6 @@ function Card({ image, title, category }) {
 }
 
 export function Projects() {
-	const theme = useMantineTheme();
-	const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
-
 	return (
 		<Container size="lg" my="xl">
 			<Group justify="center">
@@ -66,7 +62,7 @@ export function Projects() {
 					Our Projects
 				</Badge>
 			</Group>
-			<Carousel slideSize={{ base: '100%', sm: '50%' }} slideGap={{ base: rem(2), sm: 'xl' }} align="start" slidesToScroll={mobile ? 1 : 2}>
+			<Carousel slideSize={{ base: '100%', sm: '50%' }} slideGap={{ base: rem(2), sm: 'xl' }} align="start">
 				{data.map((item, index) => (
 					<Carousel.Slide key={index}>
 						<Card {...item} />

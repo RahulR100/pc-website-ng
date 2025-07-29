@@ -15,7 +15,7 @@ const mockdata = [
 		icon: IconCurrencyDollarOff
 	},
 	{
-		title: 'Empower the Gressroots',
+		title: 'Empower the Grassroots',
 		description: 'Tech teams build high-quality tools to level the playing field for the grassroots',
 		icon: IconChessRook
 	}
