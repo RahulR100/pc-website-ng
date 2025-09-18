@@ -2,7 +2,7 @@
 import { Overlay, Container, Title, Button, Text, Group, useMantineTheme } from '@mantine/core';
 import classes from './header.module.css';
 import Link from 'next/link';
-import { IconBrandSlack, IconMoodSmile } from '@tabler/icons-react';
+import { IconBrandSlack, IconHeartHandshake, IconMoodSmile, IconNews } from '@tabler/icons-react';
 
 export function Header() {
 	const theme = useMantineTheme();
@@ -29,15 +29,37 @@ export function Header() {
 							Join our Slack
 						</Button>
 					</Link>
+					<Link target="_blank" href="mailto:partners@progcode.org">
+						<Button
+							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
+							variant="outline"
+							size="xl"
+							className={classes.control}
+							leftSection={<IconHeartHandshake />}
+						>
+							Partner
+						</Button>
+					</Link>
+					<Link target="_blank" href="https://progco.de/Subscribe">
+						<Button
+							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
+							variant="outline"
+							size="xl"
+							className={classes.control}
+							leftSection={<IconNews />}
+						>
+							Follow
+						</Button>
+					</Link>
 					<Link target="_blank" href="https://www.patreon.com/ProgressiveCodersNetwork">
 						<Button
 							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
-							variant="gradient"
+							variant="outline"
 							size="xl"
 							className={classes.control}
 							leftSection={<IconMoodSmile />}
 						>
-							Donate
+							Support
 						</Button>
 					</Link>
 				</Group>

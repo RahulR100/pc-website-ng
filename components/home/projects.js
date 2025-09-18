@@ -1,6 +1,6 @@
 'use client';
 import { Carousel } from '@mantine/carousel';
-import { Paper, Text, Title, Button, rem, Container, Group, Badge } from '@mantine/core';
+import { Paper, Text, Title, Button, rem, Container, Group, Badge, Anchor } from '@mantine/core';
 import classes from './projects.module.css';
 
 const data = [
@@ -58,9 +58,23 @@ export function Projects() {
 	return (
 		<Container size="lg" my="xl">
 			<Group justify="center">
-				<Badge variant="filled" size="xl" mb="xl">
+				<Badge variant="filled" size="xl" mb="md">
 					Our Projects
 				</Badge>
+			</Group>
+			<Group justify="center" mb="xl">
+				<Anchor
+					href="https://app.powerbi.com/view?r=eyJrIjoiYTgwMWNhMDItZDBkMi00M2JiLThlZjAtNmZmMTdiNzA5MmUzIiwidCI6IjM1YjBlMWU0LWQ3YmEtNGYxOC1hNzliLWVjMTRhMTE5YTcxZCIsImMiOjF9"
+					target="_blank"
+				>
+					See All Projects
+				</Anchor>
+				<Anchor
+					href="https://app.powerbi.com/view?r=eyJrIjoiMTFjMmJkNjYtZmIxMC00NjU2LTk5MjItMDQxNTRiNjA0NTNkIiwidCI6IjM1YjBlMWU0LWQ3YmEtNGYxOC1hNzliLWVjMTRhMTE5YTcxZCIsImMiOjF9"
+					target="_blank"
+				>
+					Find More Resources
+				</Anchor>
 			</Group>
 			<Carousel slideSize={{ base: '100%', sm: '50%' }} slideGap={{ base: rem(2), sm: 'xl' }} align="start">
 				{data.map((item, index) => (
