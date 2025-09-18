@@ -19,7 +19,7 @@ export function Footer() {
 	return (
 		<div className={classes.footer}>
 			<Container className={classes.inner} size="lg">
-				<Text>Made with ❤️ by the ProgCode team.</Text>
+				<Text>Made with 💚 by the ProgCode team.</Text>
 				<Text>©️ 2025</Text>
 			</Container>
 		</div>

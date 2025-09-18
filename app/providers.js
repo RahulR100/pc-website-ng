@@ -15,8 +15,13 @@ export default function Providers({ children }) {
 				<MantineProvider
 					defaultColorScheme="dark"
 					theme={{
-						primaryColor: 'indigo',
-						primaryShade: 7
+						primaryColor: 'green',
+						primaryShade: 5,
+						defaultGradient: {
+							from: 'green',
+							to: 'lime',
+							deg: 45
+						}
 					}}
 				>
 					<Notifications position="top-right" limit={5} />

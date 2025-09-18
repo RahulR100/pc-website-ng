@@ -19,46 +19,22 @@ export function Header() {
 
 				<Group>
 					<Link target="_blank" href="https://airtable.com/appYwJQnJJJQumGT8/shraBEItZa0sYiMB0">
-						<Button
-							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
-							variant="gradient"
-							size="xl"
-							className={classes.control}
-							leftSection={<IconBrandSlack />}
-						>
+						<Button variant="gradient" size="xl" className={classes.control} leftSection={<IconBrandSlack />}>
 							Join our Slack
 						</Button>
 					</Link>
 					<Link target="_blank" href="mailto:partners@progcode.org">
-						<Button
-							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
-							variant="outline"
-							size="xl"
-							className={classes.control}
-							leftSection={<IconHeartHandshake />}
-						>
+						<Button variant="outline" size="xl" className={classes.control} leftSection={<IconHeartHandshake />}>
 							Partner
 						</Button>
 					</Link>
 					<Link target="_blank" href="https://progco.de/Subscribe">
-						<Button
-							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
-							variant="outline"
-							size="xl"
-							className={classes.control}
-							leftSection={<IconNews />}
-						>
+						<Button variant="outline" size="xl" className={classes.control} leftSection={<IconNews />}>
 							Follow
 						</Button>
 					</Link>
 					<Link target="_blank" href="https://www.patreon.com/ProgressiveCodersNetwork">
-						<Button
-							gradient={{ from: theme.colors.indigo[5], to: theme.colors.indigo[9] }}
-							variant="outline"
-							size="xl"
-							className={classes.control}
-							leftSection={<IconMoodSmile />}
-						>
+						<Button variant="outline" size="xl" className={classes.control} leftSection={<IconMoodSmile />}>
 							Support
 						</Button>
 					</Link>
