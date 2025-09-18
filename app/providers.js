@@ -13,6 +13,7 @@ export default function Providers({ children }) {
 			</head>
 			<body>
 				<MantineProvider
+					defaultColorScheme="dark"
 					theme={{
 						primaryColor: 'indigo',
 						primaryShade: 7
