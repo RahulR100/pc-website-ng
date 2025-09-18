@@ -41,6 +41,7 @@
 .description {
 	color: var(--mantine-color-white);
 	max-width: rem(600px);
+	margin-bottom: calc(var(--mantine-spacing-xl) * 1.5);
 
 	@media (max-width: $mantine-breakpoint-sm) {
 		max-width: 100%;
@@ -49,8 +50,6 @@
 }
 
 .control {
-	margin-top: calc(var(--mantine-spacing-xl) * 1.5);
-
 	@media (max-width: $mantine-breakpoint-sm) {
 		width: 100%;
 	}
