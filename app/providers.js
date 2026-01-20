@@ -1,7 +1,7 @@
 'use client';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
-import '@mantine/core/styles.css';
 import { Notifications } from '@mantine/notifications';
+import '@mantine/core/styles.css';
 import '@mantine/notifications/styles.css';
 import '@mantine/carousel/styles.css';
 
@@ -15,8 +15,9 @@ export default function Providers({ children }) {
 				<MantineProvider
 					defaultColorScheme="dark"
 					theme={{
+						autoContrast: true,
 						primaryColor: 'green',
-						primaryShade: 5,
+						primaryShade: 7,
 						defaultGradient: {
 							from: 'green',
 							to: 'lime',
