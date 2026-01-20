@@ -41,7 +41,7 @@ function Card({ image, title, description }) {
 				<Text className={classes.category}>{description}</Text>
 			</div>
 			<Button variant="white" color="dark">
-				Read article
+				Learn more
 			</Button>
 		</Paper>
 	);

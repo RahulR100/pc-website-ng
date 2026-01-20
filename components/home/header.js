@@ -1,12 +1,10 @@
 'use client';
-import { Overlay, Container, Title, Button, Text, Group, useMantineTheme } from '@mantine/core';
+import { Overlay, Container, Title, Button, Text, Group } from '@mantine/core';
 import classes from './header.module.css';
 import Link from 'next/link';
 import { IconBrandSlack, IconHeartHandshake, IconMoodSmile, IconNews } from '@tabler/icons-react';
 
 export function Header() {
-	const theme = useMantineTheme();
-
 	return (
 		<div className={classes.hero}>
 			<Overlay gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)" opacity={1} zIndex={0} />

@@ -48,7 +48,7 @@ export function Mission() {
 				We are Change Makers
 			</Title>
 
-			<Text className={classes.description} ta="center" mt="md">
+			<Text className={classes.description} mt="md">
 				Born out of a Philadelphia bar in the wake of the 2016 Democratic National Convention, we are a group of activists focused on removing big
 				money’s influence in politics by empowering the grassroots. Unlike other communities, progcode has always been decentralized, with project
 				contributors working autonomy.
