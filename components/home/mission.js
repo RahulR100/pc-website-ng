@@ -6,17 +6,17 @@ import classes from './mission.module.css';
 const mockdata = [
 	{
 		title: 'Build Open Source',
-		description: 'Members collaborate to develop highly integrated, no-to-low cost solutions',
+		description: 'Members collaborate to develop highly integrated, no-to-low cost solutions.',
 		icon: IconCode
 	},
 	{
 		title: 'Get Money Out of Politics',
-		description: 'People-driven movements strengthen communities, reducing the influence of big-money in politics',
+		description: 'People-driven movements strengthen communities, reducing the influence of big-money in politics.',
 		icon: IconCurrencyDollarOff
 	},
 	{
 		title: 'Empower the Grassroots',
-		description: 'Tech teams build high-quality tools to level the playing field for the grassroots',
+		description: 'Tech teams build high-quality tools to level the playing field for the grassroots.',
 		icon: IconChessRook
 	}
 ];
@@ -48,10 +48,10 @@ export function Mission() {
 				We are Change Makers
 			</Title>
 
-			<Text className={classes.description} mt="md">
+			<Text className={classes.description} mt="md" mx={0}>
 				Born out of a Philadelphia bar in the wake of the 2016 Democratic National Convention, we are a group of activists focused on removing big
 				money’s influence in politics by empowering the grassroots. Unlike other communities, progcode has always been decentralized, with project
-				contributors working autonomy.
+				contributors working autonomously.
 			</Text>
 
 			<SimpleGrid cols={{ base: 1, md: 3 }} spacing="xl" mt={50}>

@@ -18,7 +18,7 @@ export function Header() {
 				<Group>
 					<Link target="_blank" href="https://airtable.com/appYwJQnJJJQumGT8/shraBEItZa0sYiMB0">
 						<Button variant="gradient" size="xl" className={classes.control} leftSection={<IconBrandSlack />}>
-							Join our Slack
+							Join us on Slack
 						</Button>
 					</Link>
 					<Link target="_blank" href="mailto:partners@progcode.org">
