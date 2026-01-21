@@ -1,6 +1,6 @@
 {
 	"name": "progcode-website",
-	"version": "2025.07.29",
+	"version": "2026.01.20",
 	"private": true,
 	"scripts": {
 		"upgrade": "npm update && npx @next/codemod@canary upgrade latest",

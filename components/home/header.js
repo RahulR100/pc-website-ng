@@ -9,7 +9,10 @@ export function Header() {
 		<div className={classes.hero}>
 			<Overlay gradient="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, .65) 40%)" opacity={1} zIndex={0} />
 			<Container className={classes.container} size="lg">
-				<Title className={classes.title}>ProgCode</Title>
+				<Group>
+					<img height={120} src="/logo-nobg.png"></img>
+					<Title className={classes.title}>ProgCode</Title>
+				</Group>
 				<Text className={classes.description} size="xl" mt="xl">
 					Progressive Coders Network is a 501(c)(3) progressive community of tech and non-tech activists building open-source tools to empower the
 					grassroots and reduce the influence of big money in politics.

@@ -6,7 +6,7 @@ import classes from './mission.module.css';
 const mockdata = [
 	{
 		title: 'Build Open Source',
-		description: 'Members collaborate to develop highly integrated, no-to-low cost solutions.',
+		description: 'Members collaborate to develop highly integrated, low-to-no cost solutions.',
 		icon: IconCode
 	},
 	{
