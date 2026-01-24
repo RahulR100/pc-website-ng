@@ -9,7 +9,7 @@ export function Footer() {
 			<Container className={classes.inner} size="lg">
 				<Text>Made with 💚 by the ProgCode team.</Text>
 				<Suspense fallback={<span>...</span>}>
-					<Text>&#169; {new Date().getFullYear()}</Text>
+					<Text>&#169; {new Date().getFullYear()} Progressive Coders Network</Text>
 				</Suspense>
 			</Container>
 		</div>
