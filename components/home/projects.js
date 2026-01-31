@@ -7,27 +7,30 @@ const data = [
 	{
 		image: 'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
 		title: 'Spoke',
-		description: 'A brief description.'
+		description:
+			'Spoke is an open source text-distribution tool for organizations to mobilize supporters and members into action. Spoke allows you to upload phone numbers, customize scripts and assign volunteers to communicate with supporters while allowing organizations to manage the process.'
 	},
 	{
 		image: 'https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
 		title: 'OptIndie News',
-		description: 'A brief description.'
+		description: 'An independent news aggregator project.'
 	},
 	{
 		image: 'https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
 		title: 'Envirotrack',
-		description: 'A brief description.'
+		description:
+			'Envirotrack is an environmental project that provides access to air quality detection equipment and a companion mapping service to empower communities and environmental organizations to monitor petrochemical emissions.'
 	},
 	{
 		image: 'https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
 		title: 'Carpool Action',
-		description: 'A brief description.'
+		description: 'Carpool Vote is a platform that introduces volunteer drivers to people who need a ride to the polling station.'
 	},
 	{
 		image: 'https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
 		title: 'National Voter File',
-		description: 'A brief description.'
+		description:
+			'National Voter File is a crowd-sourced database of US voter information that will be accessible free of charge to socially conscious purposes.'
 	}
 ];
 
