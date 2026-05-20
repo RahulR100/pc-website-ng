@@ -14,8 +14,8 @@ export function Header() {
 					<Title className={classes.title}>ProgCode</Title>
 				</Group>
 				<Text className={classes.description} size="xl" mt="xl">
-					Progressive Coders Network is a 501(c)(3) progressive community of tech and non-tech activists building open-source tools to empower the
-					grassroots and reduce the influence of big money in politics.
+					Progressive Coders Network is a 501(c)(3) community of tech and non-tech volunteers building open-source tools to empower the grassroots and
+					reduce the influence of big money in politics.
 				</Text>
 
 				<Group>
